@@ -121,7 +121,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
 },
 }
 }
@@ -611,7 +611,7 @@ end
 if Text and Text:match('(%d+)/toptop') then
 local UserId = Text:match('(%d+)/toptop')
 if tonumber(data.sender_user_id) == tonumber(UserId) then
-local toptop = "← اهلين فيك في قوائم التوب\nللمزيد من التفاصيل - [@uo_vn]\n⧫"
+local toptop = "← اهلين فيك في قوائم التوب\nللمزيد من التفاصيل - [@JB_JBO]\n⧫"
 local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
@@ -625,7 +625,7 @@ data = {
 {text = 'اخفاء', data = data.sender_user_id..'/delAmr'}, 
 },
 {
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .', url="t.me/uo_vn"},
+{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .', url="t.me/JB_JBO"},
 },
 }
 }
@@ -680,7 +680,7 @@ data = {
 {text = '• رجوع •', data = data.sender_user_id..'/toptop'}, 
 },
 {
-{text = '⧫ 𝘊𝘙𝘐𝘚𝘛??𝘕 • 𝘚𝘖𝘜𝘙𝘊𝘌 ⧫',url="t.me/uo_vn"}, 
+{text = '⧫ 𝘊𝘙𝘐𝘚𝘛??𝘕 • 𝘚𝘖𝘜𝘙𝘊𝘌 ⧫',url="t.me/JB_JBO"}, 
 },
 }
 }
@@ -2311,7 +2311,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
 },
 }
 }
@@ -2452,7 +2452,7 @@ data = {
 {text = '{ القائمه الرئيسيه }', data = IdUser..'/helpall'},
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
 },
 }
 }
@@ -2512,7 +2512,7 @@ data = {
 {text = '{ القائمه الرئيسيه }', data = IdUser..'/helpall'},
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
 },
 }
 }
@@ -2601,7 +2601,7 @@ data = {
 {text = '{ القائمه الرئيسيه }', data = IdUser..'/helpall'},
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
 },
 }
 }
@@ -2686,7 +2686,7 @@ data = {
 {text = '{ القائمه الرئيسيه }', data = IdUser..'/helpall'},
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
 },
 }
 }
@@ -2745,7 +2745,7 @@ data = {
 {text = '{ القائمه الرئيسيه }', data = IdUser..'/helpall'},
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
 },
 }
 }
@@ -2789,7 +2789,7 @@ data = {
 {text = '{ القائمه الرئيسيه }', data = IdUser..'/helpall'},
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
 },
 }
 }
@@ -2845,7 +2845,7 @@ data = {
 {text = '{ القائمه الرئيسيه }', data = IdUser..'/helpall'},
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
 },
 }
 }
@@ -2920,7 +2920,7 @@ data = {
 {text = '{ القفل / الفتح }', data = IdUser..'/NoNextSeting'}, {text = '{ التعطيل / التفعيل }', data = IdUser..'/listallAddorrem'}, 
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
 },
 }
 }
@@ -2962,7 +2962,7 @@ data = {
 {text = '{ القفل / الفتح }', data = IdUser..'/NoNextSeting'}, {text = '{ التعطيل / التفعيل }', data = IdUser..'/listallAddorrem'}, 
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
 },
 }
 }
@@ -3083,7 +3083,7 @@ data = {
 {text = '{ القفل / الفتح }', data = IdUser..'/NoNextSeting'}, {text = '{ التعطيل / التفعيل }', data = IdUser..'/listallAddorrem'}, 
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
 },
 }
 }
