@@ -80,7 +80,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
 },
 }
 }
@@ -191,7 +191,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
 },
 }
 }
@@ -224,7 +224,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
 },
 }
 }
@@ -274,7 +274,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
 },
 }
 }
@@ -353,7 +353,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
 },
 }
 }
@@ -428,7 +428,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
 },
 }
 }
@@ -474,7 +474,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
 },
 }
 }
@@ -505,7 +505,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
 },
 }
 }
