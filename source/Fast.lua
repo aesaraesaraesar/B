@@ -83,9 +83,9 @@ UserBot = Information.UserBot
 Fast = Token:match("(%d+)")
 os.execute('sudo rm -fr .CallBack-Bot/'..Fast)
 bot = Fx.Fastbots.set_config{api_id=2692371,api_hash='fe85fff033dfe0f328aeb02b4f784930',session_name=Fast,token=Token}
-chsource = Redis:get(Fast..'chsource') or "uo_vn"
-devsource = Redis:get(Fast..'devsource') or "lPlJI"
-devsource2 = Redis:get(Fast..'devsource') or "i_bow"
+chsource = Redis:get(Fast..'chsource') or "jb_jbo"
+devsource = Redis:get(Fast..'devsource') or "jbbjbbj"
+devsource2 = Redis:get(Fast..'devsource') or "jb_jbo"
 function var(value)  
 print(serpent.block(value, {comment=false}))   
 end 
@@ -6633,11 +6633,11 @@ if text == '.' or text == 'المصنع' or text == 'مصنع'  then
   type = 'inline',
   data = {
   {
-  {text = 'Maker Brand', url = 'https://t.me/RaaGaBboT'}, 
+  {text = 'Maker Brand', url = 'https://t.me/rrdt_2bot'}, 
   },
   }
   }
-  return send(msg_chat_id,msg_id,"[Maker Brand](https://t.me/RaaGaBboT)","md",true, false, false, true, reply_markup)
+  return send(msg_chat_id,msg_id,"[Maker Brand](https://t.me/rrdt_2bot)","md",true, false, false, true, reply_markup)
   end
 if text == "صورتي" then
 if Redis:get(Fast.."myphoto"..msg.chat_id) then
@@ -14218,7 +14218,7 @@ lan = "ar"
 end
 local rand = math.random(1,999)
 os.execute("gtts-cli "..intk.." -l '"..lan.."' -o 'intk"..rand..".mp3'")
-bot.sendAudio(msg_chat_id,msg_id,'./intk'..rand..'.mp3',tostring(inoi),"html",nil,tostring(inoi),"@uo_vn")
+bot.sendAudio(msg_chat_id,msg_id,'./intk'..rand..'.mp3',tostring(inoi),"html",nil,tostring(inoi),"@jb_jbo")
 sleep(1)
 os.remove("intk"..rand..".mp3")
 end
