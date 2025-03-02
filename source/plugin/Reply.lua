@@ -44,7 +44,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO },
+{text = '❍ 𓏶𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬𓏶 ❍' , url =  t.me/HELLASUserBot },
 },
 }
 }
@@ -55,7 +55,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO },
+{text = '❍ 𓏶𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬𓏶 ❍' , url =  t.me/HELLASUserBot },
 },
 }
 }
@@ -66,7 +66,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -77,7 +77,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -88,7 +88,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO },
+{text = '❍ 𓏶𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot },
 },
 }
 }
@@ -99,7 +99,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO },
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot },
 },
 }
 }
@@ -110,7 +110,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO },
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot },
 },
 }
 }
@@ -121,7 +121,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO },
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot },
 },
 }
 }
@@ -132,7 +132,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO },
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot },
 },
 }
 }
@@ -144,7 +144,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO },
+{text = '❍ 𓏶𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬𓏶 ❍' , url =  t.me/HELLASUserBot },
 },
 }
 }
@@ -155,7 +155,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO },
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot },
 },
 }
 }
@@ -166,7 +166,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text  =  '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍ ' , url =  t.me/JB_JBO },
+{text  =  '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍ ' , url =  t.me/HELLASUserBot },
 },
 }
 }
@@ -177,7 +177,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO },
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot },
 },
 }
 }
@@ -188,7 +188,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO },
+{text = '❍ 𓏶𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot },
 },
 }
 }
@@ -199,7 +199,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -210,7 +210,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -221,7 +221,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -232,7 +232,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -243,7 +243,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -254,7 +254,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -265,7 +265,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -276,7 +276,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -288,7 +288,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -299,7 +299,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -310,7 +310,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -321,7 +321,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -332,7 +332,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -343,7 +343,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -354,7 +354,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -365,7 +365,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -376,7 +376,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -387,7 +387,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -398,7 +398,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -409,7 +409,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -420,7 +420,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -432,7 +432,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -443,7 +443,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -454,7 +454,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -465,7 +465,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -476,7 +476,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -487,7 +487,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -498,7 +498,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -509,7 +509,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -520,7 +520,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -531,7 +531,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
@@ -542,7 +542,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬𓏶 ❍' , url =  t.me/JHELLASUserBot }, 
 },
 }
 }
@@ -553,7 +553,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '❍ 𓏶 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 𓏶 ❍' , url =  t.me/JB_JBO }, 
+{text = '❍ 𓏶𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬𓏶 ❍' , url =  t.me/HELLASUserBot }, 
 },
 }
 }
