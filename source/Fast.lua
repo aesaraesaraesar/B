@@ -83,9 +83,9 @@ UserBot = Information.UserBot
 Fast = Token:match("(%d+)")
 os.execute('sudo rm -fr .CallBack-Bot/'..Fast)
 bot = Fx.Fastbots.set_config{api_id=2692371,api_hash='fe85fff033dfe0f328aeb02b4f784930',session_name=Fast,token=Token}
-chsource = Redis:get(Fast..'chsource') or "jb_jbo"
-devsource = Redis:get(Fast..'devsource') or "jbbjbbj"
-devsource2 = Redis:get(Fast..'devsource') or "jb_jbo"
+chsource = Redis:get(Fast..'chsource') or "HELLASUserBot"
+devsource = Redis:get(Fast..'devsource') or "HELLASUserBot"
+devsource2 = Redis:get(Fast..'devsource') or "HELLASUserBot"
 function var(value)  
 print(serpent.block(value, {comment=false}))   
 end 
@@ -14294,19 +14294,19 @@ if text == "تفعيل بوت بالصوره" then
       end
       end
 
-    if text == 'السورس' or text == 'سورس' or text == 'براند'  then
+    if text == 'السورس' or text == 'سورس' or text == 'هيلاس'  then
       local reply_markup = bot.replyMarkup{
       type = 'inline',
       data = {
       {
-      {text = 'Source', url = 'http://t.me/'..chsource..''}, 
+      {text = 'Source', url = 'http://t.me/HELLASUserBot'}, 
       },
       {
       {text = 'Dev  Source', url = 't.me/'..devsource}, 
       },
       }
       }
-      bot.sendPhoto(msg.chat_id, msg.id, 'http://t.me/'..chsource..'', [[
+      bot.sendPhoto(msg.chat_id, msg.id, 'http://t.me/HELLASUserBot', [[
       • 𝗧𝗵𝗲 𝗕𝗲𝘀𝘁 𝗦𝗼𝘂𝗿𝗰𝗲 𝗢𝗻 𝗧𝗲𝗹𝗲𝗴𝗮𝗺 .
       ]],"md", true, nil, nil, nil, nil, nil, nil, nil, nil, reply_markup)
       end
@@ -14374,7 +14374,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
   }
   
   if photo.total_count > 0 then
-    local NamesBot = (Redis:get(Fast.."Name:Bot") or "براند")
+    local NamesBot = (Redis:get(Fast.."Name:Bot") or "هيلاس")
     local NameBots = {
 "قلب "..NamesBot ,
 "مين مزعلك بس يعيوني 🥺🌚💋",
@@ -14384,7 +14384,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
 }
   return bot.sendPhoto(msg.chat_id, msg.id, photo.photos[1].sizes[#photo.photos[1].sizes].photo.remote.id,NameBots[math.random(#NameBots)], "md", true, nil, nil, nil, nil, nil, nil, nil, nil, reply_markup )
   else
-    local NamesBot = (Redis:get(Fast.."Name:Bot") or "براند")
+    local NamesBot = (Redis:get(Fast.."Name:Bot") or "هيلاس")
     local NameBots = {
 "قلب "..NamesBot ,
 "مين مزعلك بس يعيوني 🥺🌚💋",
@@ -14395,7 +14395,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
   return send(msg_chat_id,msg_id,NameBots[math.random(#NameBots)],"md") 
   end 
   end
-      local NamesBot = (Redis:get(Fast.."Name:Bot") or "براند")
+      local NamesBot = (Redis:get(Fast.."Name:Bot") or "هيلاس")
     local NameBots = {
 "قلب "..NamesBot ,
 "مين مزعلك بس يعيوني 🥺🌚💋",
@@ -14427,7 +14427,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
     }
     
     if photo.total_count > 0 then
-      local NamesBot = (Redis:get(Fast.."Name:Bot") or "براند")
+      local NamesBot = (Redis:get(Fast.."Name:Bot") or "هيلاس")
       local BotName = {
       "اسمي "..NamesBot.." يبن العاميه",
       "يارب يكون موضوع مهم بس",
@@ -14437,7 +14437,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
       }
     return bot.sendPhoto(msg.chat_id, msg.id, photo.photos[1].sizes[#photo.photos[1].sizes].photo.remote.id,BotName[math.random(#BotName)], "md", true, nil, nil, nil, nil, nil, nil, nil, nil, reply_markup )
     else
-      local NamesBot = (Redis:get(Fast.."Name:Bot") or "براند")
+      local NamesBot = (Redis:get(Fast.."Name:Bot") or "هيلاس")
       local BotName = {
       "اسمي "..NamesBot.." يبن العاميه",
       "يارب يكون موضوع مهم بس",
@@ -14448,7 +14448,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
     return send(msg_chat_id,msg_id,BotName[math.random(#BotName)],"md") 
     end 
     end
-          local NamesBot = (Redis:get(Fast.."Name:Bot") or "براند")
+          local NamesBot = (Redis:get(Fast.."Name:Bot") or "هيلاس")
       local BotName = {
       "اسمي "..NamesBot.." يبن العاميه",
       "يارب يكون موضوع مهم بس",
@@ -15115,7 +15115,7 @@ return send(msg.chat_id,msg.id,'*\n• عليك الاشتراك في قناة �
 end
 Redis:del(Fast.."Get:Reides:Commands:Group"..msg_chat_id..":"..'تعط','تعطيل الايدي بالصوره')
 Redis:del(Fast.."Get:Reides:Commands:Group"..msg_chat_id..":"..'تفع','تفعيل الايدي بالصوره')
-Redis:del(Fast.."Get:Reides:Commands:Group"..msg_chat_id..":"..'ا','ايدي')
+Redis:del(Fast.."Get:Reides:Commands:Group"..msg_chat_id..":"..'ا','ايدا')
 Redis:del(Fast.."Get:Reides:Commands:Group"..msg_chat_id..":"..'م','رفع مميز')
 Redis:del(Fast.."Get:Reides:Commands:Group"..msg_chat_id..":"..'اد', 'رفع ادمن')
 Redis:del(Fast.."Get:Reides:Commands:Group"..msg_chat_id..":"..'مد','رفع مدير')
@@ -15305,7 +15305,7 @@ data = {
 },
 }
 }
-return send(msg_chat_id,msg_id,'• اهلا بك عزيزي المطور ', 'md', false, false, false, false, reply_markup)
+return send(msg_chat_id,msg_id,'• اهلا بك عزيزي المطور تم صنع البوت بواسطه : @Giroubtlebot ', 'md', false, false, false, false, reply_markup)
 end
 end
 if text and Redis:get(Fast.."set:chsource"..senderr) then
