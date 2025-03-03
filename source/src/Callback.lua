@@ -121,7 +121,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -536,7 +536,7 @@ if Text and Text:match('(%d+)/play_wheel') then
   local keyboard = {} 
   keyboard.inline_keyboard = {
   {
-  {text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+  {text = '• HELLAS • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/HELLASUserBot"}, 
   },
   }
   local msg_reply = msg_id/2097152/0.5
@@ -625,7 +625,7 @@ data = {
 {text = 'اخفاء', data = data.sender_user_id..'/delAmr'}, 
 },
 {
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .', url="t.me/JB_JBO"},
+{text = '•𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 .', url="t.me/HELLASUserBot"},
 },
 }
 }
@@ -680,7 +680,7 @@ data = {
 {text = '• رجوع •', data = data.sender_user_id..'/toptop'}, 
 },
 {
-{text = '⧫ 𝘊𝘙𝘐𝘚𝘛??𝘕 • 𝘚𝘖𝘜𝘙𝘊𝘌 ⧫',url="t.me/JB_JBO"}, 
+{text = '⧫𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬⧫',url="t.me/HELLASUserBot"}, 
 },
 }
 }
@@ -751,7 +751,7 @@ data = {
 {text = '• رجوع •', data = data.sender_user_id..'/toptop'}, 
 },
 {
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '• HELLAS • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/HELLASUserBot"}, 
 },
 }
 }
@@ -826,7 +826,7 @@ data = {
 {text = '• رجوع •', data = data.sender_user_id..'/toptop'}, 
 },
 {
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '• HELLAS • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/HELLASUserBot"}, 
 },
 }
 }
@@ -904,7 +904,7 @@ data = {
 {text = '• رجوع •', data = data.sender_user_id..'/toptop'}, 
 },
 {
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '• HELLAS • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/HELLASUserBot"}, 
 },
 }
 }
@@ -977,7 +977,7 @@ data = {
 {text = '• رجوع •', data = data.sender_user_id..'/toptop'}, 
 },
 {
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '• HELLAS • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/HELLASUserBot"}, 
 },
 }
 }
@@ -1062,7 +1062,7 @@ data = {
 {text = '• رجوع •', data = data.sender_user_id..'/toptop'}, 
 },
 {
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '• HELLAS • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/HELLASUserBot"}, 
 },
 }
 }
@@ -1081,7 +1081,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '• HELLAS • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/HELLASUserBot"},
 },
 }
 }
@@ -1100,7 +1100,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{{text = '• HELLAS • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/HELLASUserBot"}, 
 },
 }
 }
@@ -1138,7 +1138,7 @@ data = {
 {
 {text = 'شخصية طيبة 😇', data = data.sender_user_id..'/msalm'},{text = 'شخصية شريرة 😈', data = data.sender_user_id..'/shrer'},
 },
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '• HELLAS • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/HELLASUserBot"}, 
 }
 }
 bot.editMessageText(chat_id,msg_id,ttshakse, 'md', true, false, reply_markup)
@@ -1176,7 +1176,7 @@ data = {
 {
 {text = 'شخصية طيبة 😇', data = data.sender_user_id..'/msalm'},{text = 'شخصية شريرة 😈', data = data.sender_user_id..'/shrer'},
 },
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '• HELLAS • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/HELLASUserBot"}, 
 }
 }
 bot.editMessageText(chat_id,msg_id,ttshakse, 'md', true, false, reply_markup)
@@ -1213,7 +1213,7 @@ data = {
 {
 {text = 'شخصية طيبة 😇', data = data.sender_user_id..'/msalm'},{text = 'شخصية شريرة 😈', data = data.sender_user_id..'/shrer'},
 },
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '• HELLAS • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/HELLASUserBot"}, 
 }
 }
 bot.editMessageText(chat_id,msg_id,ttshakse, 'md', true, false, reply_markup)
@@ -1242,7 +1242,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '•HELLAS • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/HELLASUserBot"}, 
 },
 }
 }
@@ -1257,7 +1257,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '• 𝖡𝗋𝖺𝗇𝖽 • 𝖲𝗈𝗎𝗋𝖼𝖾 .',url="t.me/uo_vn"}, 
+{text = '•𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬 .',url="t.me/HELLASUserBot"}, 
 },
 }
 }
@@ -1411,7 +1411,7 @@ data = {
 {text = '0', data = IdUser..'calc&0'},{text = '.', data = IdUser..'calc&.'},{text = '+', data = IdUser..'calc&+'},{text = '=', data = IdUser..'equal'},
 },
 {
-{text = 'مطور الملف', url = 'http://t.me/FPFFG'},
+{text = 'مطور الملف', url = 'http://t.me/F_Q_1'},
 },
 }
 }
@@ -2100,7 +2100,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -2122,14 +2122,14 @@ if Redis:get(Fast..'Set:array'..IdUser..':'..ChatId) == 'true1' then
 Redis:del(Fast..'Set:array'..IdUser..':'..ChatId)
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'قناه السورس',url='http://t.me/'..chsource..''}},
+{{text = 'قناه السورس',url='https://t.me/HELLASUserBot'}},
 }
 local msg_idd = Msg_id/2097152/0.5
 return https.request("https://api.telegram.org/bot"..Token..'/editMessageText?chat_id='..ChatId..'&text='..URL.escape(" *• تم حفظ الردود بنجاح*")..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 else
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'قناه السورس',url='http://t.me/'..chsource..''}},
+{{text = 'قناه السورس',url='https://t.me/HELLASUserBot'}},
 }
 return https.request("https://api.telegram.org/bot"..Token..'/editMessageText?chat_id='..ChatId..'&text='..URL.escape(" *• تم تنفيذ الامر سابقا*")..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -2293,7 +2293,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -2452,7 +2452,7 @@ data = {
 {text = '{ القائمه الرئيسيه }', data = IdUser..'/helpall'},
 },
 {
-{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -2512,7 +2512,7 @@ data = {
 {text = '{ القائمه الرئيسيه }', data = IdUser..'/helpall'},
 },
 {
-{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -2601,7 +2601,7 @@ data = {
 {text = '{ القائمه الرئيسيه }', data = IdUser..'/helpall'},
 },
 {
-{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -2686,7 +2686,7 @@ data = {
 {text = '{ القائمه الرئيسيه }', data = IdUser..'/helpall'},
 },
 {
-{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -2745,7 +2745,7 @@ data = {
 {text = '{ القائمه الرئيسيه }', data = IdUser..'/helpall'},
 },
 {
-{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -2789,7 +2789,7 @@ data = {
 {text = '{ القائمه الرئيسيه }', data = IdUser..'/helpall'},
 },
 {
-{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -2845,7 +2845,7 @@ data = {
 {text = '{ القائمه الرئيسيه }', data = IdUser..'/helpall'},
 },
 {
-{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -2920,7 +2920,7 @@ data = {
 {text = '{ القفل / الفتح }', data = IdUser..'/NoNextSeting'}, {text = '{ التعطيل / التفعيل }', data = IdUser..'/listallAddorrem'}, 
 },
 {
-{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -2962,7 +2962,7 @@ data = {
 {text = '{ القفل / الفتح }', data = IdUser..'/NoNextSeting'}, {text = '{ التعطيل / التفعيل }', data = IdUser..'/listallAddorrem'}, 
 },
 {
-{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -3083,7 +3083,7 @@ data = {
 {text = '{ القفل / الفتح }', data = IdUser..'/NoNextSeting'}, {text = '{ التعطيل / التفعيل }', data = IdUser..'/listallAddorrem'}, 
 },
 {
-{text = 'قناه السورس', url = 'https://t.me/JB_JBO'}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
