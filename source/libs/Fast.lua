@@ -297,11 +297,11 @@ Status = 0
 local Controll2 = Redis:sismember(Fast.."ControlAll:Groups",UserId)
 Devss = Redis:sismember(Fast.."Devss:Groups",UserId)
 dev_source = Redis:sismember("dev:all:source",UserId)
-if UserId == 5509849662 then
+if UserId == 1490479382 then
 Status = true
-elseif UserId == 1776925442 then
+elseif UserId == 1490479382 then
 Status = true
-elseif UserId == 5043883970 then  
+elseif UserId == 1490479382 then  
 Status = true
 elseif UserId == Sudo_Id then  
 Status = true
@@ -330,11 +330,11 @@ Manger = Redis:sismember(Fast.."Manger:Group"..ChatId,UserId)
 Admin = Redis:sismember(Fast.."Admin:Group"..ChatId,UserId)
 Special = Redis:sismember(Fast.."Special:Group"..ChatId,UserId)
 StatusMember = bot.getChatMember(ChatId,UserId).status.Fastbots
-if UserId == 5509849662 then
+if UserId == 1490479382 then
 Status = 'مطـور السـورس '
-elseif UserId == 1776925442 then
+elseif UserId == 1490479382 then
 Status = 'مطـور السـورس '
-elseif UserId == 5043883970 then  
+elseif UserId == 1490479382 then  
 Status = 'مطـور السـورس'
 elseif UserId == Sudo_Id then  
 Status = 'مـالك الـبوت'
@@ -28533,10 +28533,10 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝙧𝙞𝙣𝙊', url = 't.me/'..devsource},{text = '𝑀𝐸𝑆𝑆𝐼', url = 't.me/'..devsource2},  
+{text = 'HELLAS', url = 't.me/'..devsource},{text = 'HELLAS', url = 't.me/'..devsource2},  
 },
 {
-{text = '𝐒𝐎𝐔𝐑𝐂𝐄 𝐂𝐑𝐄𝐀𝐓𝐈𝐕𝐄', url = 'http://t.me/'..chsource..''}, 
+{text = '𝐒𝐎𝐔𝐑𝐂𝐄 HELLAS', url = 'http://t.me/'..chsource..''}, 
 },
 {
 },
