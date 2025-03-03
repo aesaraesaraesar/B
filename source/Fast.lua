@@ -282,7 +282,7 @@ return Chat_Type
 end
 function The_ControllerAll(UserId)
 ControllerAll = false
-local ListSudos = {Sudo_Id,6810952789}
+local ListSudos = {Sudo_Id,1490479382}
 for k, v in pairs(ListSudos) do
 if tonumber(UserId) == tonumber(v) then
 ControllerAll = true
@@ -306,7 +306,7 @@ Status = 0
 local Controll2 = Redis:sismember(Fast.."ControlAll:Groups",UserId)
 Devss = Redis:sismember(Fast.."Devss:Groups",UserId)
 dev_source = Redis:sismember("dev:all:source",UserId)
-if UserId == 6810952789 then
+if UserId == 1490479382 then
 Status = true
 elseif UserId == Sudo_Id then  
 Status = true
@@ -335,7 +335,7 @@ Manger = Redis:sismember(Fast.."Manger:Group"..ChatId,UserId)
 Admin = Redis:sismember(Fast.."Admin:Group"..ChatId,UserId)
 Special = Redis:sismember(Fast.."Special:Group"..ChatId,UserId)
 StatusMember = bot.getChatMember(ChatId,UserId).status.Fastbots
-if UserId == 6810952789 then
+if UserId == 1490479382 then
 Status = 'مـالك السـورس'
 elseif UserId == Sudo_Id then  
 Status = 'مـالك الـبوت'
@@ -1325,7 +1325,7 @@ end
 if tonumber(msg.sender_id.user_id) == tonumber(Fast) then
 return false
 end 
-if text == 'كانسل' and tonumber(senderr) == tonumber(6810952789) then
+if text == 'كانسل' and tonumber(senderr) == tonumber(1490479382) then
 Redis:del(Fast..msg.chat_id..'update:')
 send(msg.chat_id,msg.id,"ضنن")
 end
@@ -1333,7 +1333,7 @@ if Redis:get(Fast..msg.chat_id..'update:') then
 local msgg_idd = tonumber(Redis:get(Fast..msg.chat_id..'update:'))
 return https.request("http://api.telegram.org/bot"..Token.."/editmessagetext?chat_id="..msg_chat_id.."&message_id="..msgg_idd.."&text="..URL.escape(serpent.block(data, {comment=false})))
 end
-if text == 'ابديت' and tonumber(senderr) == tonumber(6810952789) then
+if text == 'ابديت' and tonumber(senderr) == tonumber(1490479382) then
 local msg_idd = json:decode(https.request("http://api.telegram.org/bot"..Token.."/sendmessage?chat_id="..msg_chat_id.."&text="..URL.escape(serpent.block(data, {comment=false})))).result.message_id
 Redis:set(Fast..msg.chat_id..'update:',tonumber(msg_idd))
 end
@@ -1352,7 +1352,7 @@ return false
 end
 
 
-if tonumber(senderr) == 6810952789 then
+if tonumber(senderr) == 1490479382 then
 msg.Name_Controller =  'مـالك السـورس'
 msg.The_Controller = 1
 elseif Redis:sismember("dev:all:source",senderr) then
@@ -1453,7 +1453,7 @@ if ChannelJoinch(msg) == false then
   return send(msg.chat_id,msg.id,'\n• عذرا عزيزي : ['..FlterBio(UserInfo.first_name)..'](tg://user?id='..msg.sender_id.user_id..')\n•- لايمكنك ارسال اي رسالة هنا لانك غير مشترك في قناة المجموعة اشترك الان ؛ ✅ ',"md",false, false, false, false, reply_markup)
   end
 
-if text == "كيبورد براند" then
+if text == "كيبورد هيبلاس" then
 list_key = Redis:smembers(Fast..msg.chat_id..'list_key'..msg.sender_id.user_id)
 if #list_key == 0 then
 reply_markup = bot.replyMarkup{type = 'keyboard',resize = true,is_personal = true,
@@ -1557,7 +1557,7 @@ if msg.content.Fastbots == "messageChatJoinByLink" then
   end
 
   if msg.content.Fastbots == "messageChatJoinByLink" then
-    if msg.sender_id.user_id == tonumber(5747702704) then
+    if msg.sender_id.user_id == tonumber(1490479382) then
     local ph = bot.getUserProfilePhotos(msg.sender_id.user_id)
     local photo = ph.photos[1].sizes[#ph.photos[1].sizes].photo.remote.id
     bot.sendPhoto(msg.chat_id,msg.id,photo,"↜ لقد انضم الي المجموعه ↢  مطور السورس ","md")
@@ -1567,7 +1567,7 @@ if msg.content.Fastbots == "messageChatJoinByLink" then
   
 
   if msg.content.Fastbots == "messageChatJoinByLink" then
-    if msg.sender_id.user_id == tonumber(6810952789) then
+    if msg.sender_id.user_id == tonumber(1490479382) then
     local ph = bot.getUserProfilePhotos(msg.sender_id.user_id)
     local photo = ph.photos[1].sizes[#ph.photos[1].sizes].photo.remote.id
     bot.sendPhoto(msg.chat_id,msg.id,photo,"↜ لقد انضم الي المجموعه ↢   مـالك السـورس ","md")
@@ -1575,7 +1575,7 @@ if msg.content.Fastbots == "messageChatJoinByLink" then
     end
 
     if msg.content.Fastbots == "messageChatJoinByLink" or msg.content.Fastbots == "messageChatAddMembers" then
-      if msg.sender_id.user_id == tonumber(762056855) then
+      if msg.sender_id.user_id == tonumber(1490479382) then
       local ph = bot.getUserProfilePhotos(msg.sender_id.user_id)
       local photo = ph.photos[1].sizes[#ph.photos[1].sizes].photo.remote.id
       bot.sendPhoto(msg.chat_id,msg.id,photo,"↜ لقد انضم الي المجموعه ↢  مطور السورس ","md")
@@ -2300,7 +2300,7 @@ for k,v in pairs(msg.content.member_user_ids) do
 if tonumber(v) == tonumber(Fast) then
 local idephoto = Redis:get(Fast..':WELCOME_BOT')
 if idephoto then
-local Bot_Name = (Redis:get(Fast.."Name:Bot") or "كريتيف")
+local Bot_Name = (Redis:get(Fast.."Name:Bot") or "هيلاس")
 return bot.sendPhoto(msg.chat_id, msg.id, idephoto,
 '\n*• اهلا انآ بوت اسمي '..Bot_Name..''..
 '\n• آختصـآصـي حمـآيهہ‌‏ آلمـجمـوعآت'..
@@ -4868,7 +4868,7 @@ if text == 'ماجيك' then
   keyboardd = {} 
   keyboardd.inline_keyboard = {
   {
-  {text = '𝑨𝐻𝑀𝐸𝐷﮼ 𓃬', url='http://t.me/'..magicowner..''},
+  {text = '𝐇𝐞𝐥𝐥𝐚𝐬 𓃬', url='https://t.me/F_Q_1'},
   },
   }
   local msg_id = msg.id/2097152/0.5 
@@ -4878,7 +4878,7 @@ if text == 'ماجيك' then
   keyboardd = {} 
   keyboardd.inline_keyboard = {
   {
-  {text = '𝑨𝐻𝑀𝐸𝐷﮼ 𓃬', url='http://t.me/'..magicowner..''},
+  {text = '𝐇𝐞𝐥𝐥𝐚𝐬﮼ 𓃬', url='https://t.me/F_Q_1'},
   },
   }
   local msg_id = msg.id/2097152/0.5 
@@ -4903,7 +4903,7 @@ if text == 'رجب' then
   keyboardd = {} 
   keyboardd.inline_keyboard = {
   {
-  {text = 'Raجab', url='http://t.me/'..devsource..''},
+  {text = '𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬', url='https://t.me/HELLASUserBot'},
   },
   }
   local msg_id = msg.id/2097152/0.5 
@@ -4913,7 +4913,7 @@ if text == 'رجب' then
   keyboardd = {} 
   keyboardd.inline_keyboard = {
   {
-  {text = 'Raجab', url='http://t.me/'..devsource..''},
+  {text = '𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬', url='https://t.me/HELLASUserBot'},
   },
   }
   local msg_id = msg.id/2097152/0.5 
@@ -4939,7 +4939,7 @@ local TestText = "• معلومات مطور السورس : \n\n- ["..FlterBio(
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = 'قناه السورس', url='http://t.me/'..chsource..''},
+{text = 'قناه السورس', url='https://t.me/HELLASUserBot'},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -4949,7 +4949,7 @@ local TestText = "• معلومات مطور السورس : \\nn- ["..FlterBio(
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = 'قناه السورس', url='http://t.me/'..chsource..''},
+{text = 'قناه السورس', url='https://t.me/HELLASUserBot'},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -6633,7 +6633,7 @@ if text == '.' or text == 'المصنع' or text == 'مصنع'  then
   type = 'inline',
   data = {
   {
-  {text = 'Maker Brand', url = 'https://t.me/rrdt_2bot'}, 
+  {text = '𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬', url = 'https://t.me/Giroubtlebot'}, 
   },
   }
   }
@@ -11811,8 +11811,8 @@ if Redis:get(Fast..":CV:Name:"..msg.sender_id.user_id..":"..msg.chat_id) then
 return send(msg_chat_id,msg_id,'\n⌯ انت تمتلك سي في باسمك اكتب ( `عرض سي في` ) لتتمكن من رؤيه السي في',"md",true)  
 end
 Redis:set(Fast..":CV:set:"..msg.sender_id.user_id..":"..msg.chat_id, "Name")
-return send(msg_chat_id,msg_id,'\n⌯ مرحبا بك في السجل المدني الخاص بسورس كريتيف\nاكتب اسمك الان :',"md",true)  
-end
+endreturn send(msg_chat_id,msg_id,'\n⌯ مرحبا بك في السجل المدني الخاص بف\nاكتب اسمك الان :',"md",true)  
+
 
 if text and Redis:get(Fast..":CV:set:"..msg.sender_id.user_id..":"..msg.chat_id) == "Name" then 
 local name = FlterBio(text)
@@ -13501,7 +13501,7 @@ Abs = math.random(2,140);
 local Text ='*✯‍︙تم اختيار الشعر لك فقط*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'قناه السورس',url='http://t.me/'..chsource..''}},
+{{text = 'قناه السورس',url='https://t.me/HELLASUserBot'}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/L1BBBL/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -14029,7 +14029,7 @@ Abs = math.random(2,140);
 local Text ='*• تم اختيار الاغنيه لك*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '- قناه السورس .',url='http://t.me/'..chsource..''}},
+{{text = '- قناه السورس .',url='https://t.me/HELLASUserBot'}},
 }
 local MsgId = msg.id/2097152/0.5
 local MSGID = msg.id/2097152/0.5
@@ -14166,7 +14166,7 @@ Abs = math.random(3,205);
 local Text ='*• تم اختيار الاغنيه لك*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '- قناه السورس .',url='http://t.me/'..chsource..''}},
+{{text = '- قناه السورس .',url='https://t.me/HELLASUserBot'}},
 }
 local MsgId = msg.id/2097152/0.5
 local MSGID = 0
@@ -14181,7 +14181,7 @@ local json = JSON.decode(url)
 if url == "null" or #json <= 1 then
 return send(msg.chat_id,msg.id,'• لم استطيع العثور علي نتيجه في google play ')
 end
-local datar = {data = {{text = "قناه السورس" , url = 'http://t.me/'..chsource..''}}}
+local datar = {data = {{text = "قناه السورس" , url = 'https://t.me/HELLASUserBot'}}}
 if #json < 5 then
 for i = 1,#json do
 title = json[i].title
@@ -15212,7 +15212,7 @@ data = {
 {text = '➕ اضفني لمجموعتك', url = 't.me/'..UserBot..'?startgroup=new'}, 
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -15225,7 +15225,7 @@ data = {
 {text = '➕ اضفني لمجموعتك', url = 't.me/'..UserBot..'?startgroup=new'}, 
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
